@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1 id="title">FORM</h1>
+    <p id="description">Please fill this Form for crying Out loud</p>
+    <form id="survey-form" method="post" action="https://formspree.io/f/xayrjjyn">
+    
+      <label  for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter Your Name" required ></label>
+      <label for="email" id="email-label">Email <input type="email" id="email" placeholder="Enter Your Email" required></label>
+      <label for="number" id="number-label">Age<input type="number" min="13" max="100" id="number" placeholder="Enter Your Age"> </label>
+    
+    
+      <p>some <p>
+      <label for="dropdown">Select:</label>
+        <select id="dropdown">
+        <option value="">Select </option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      
+      
+      <label for="idk"><input type="radio" name="Something" id="idk" value="haha">Personal<label>
+      <label><input type="radio" name="Something" value="haha">Business<label>
+        <!---->
+      <label for="rx"><input type="checkbox" name="check1" id="rx" value="lorem">Check1<label>
+         <label for="rc"><input type="checkbox" name="check1" id="rc" value="lorem">Check2<label>
+      <textarea placeholder="Type Something Here"></textarea>
+    
+    <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
